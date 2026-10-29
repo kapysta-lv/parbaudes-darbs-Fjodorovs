@@ -1,0 +1,13 @@
+atzimju_saraksts = [6, 9, 4, 2, 7, 5, 10]
+
+skaits = len(atzimju_saraksts)
+summa = sum(atzimju_saraksts)
+vidējā = summa / skaits
+augstākā = max(atzimju_saraksts)
+zemākā = min(atzimju_saraksts)
+
+print("skaits:", skaits)
+print("summa:", summa)
+print("vidējā:", vidējā)
+print("augstākā:", augstākā)
+print("zemākā:", zemākā)
