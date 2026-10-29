@@ -1,0 +1,8 @@
+degviela = 50
+paterins = 7
+
+braucieni = degviela // paterins
+atlikums = degviela % paterins
+
+print("Var veikt", braucieni, "braucienus.")
+print("Atlikums paliek", atlikums)
